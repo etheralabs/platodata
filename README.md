@@ -1,5 +1,5 @@
-# platodata
-News Data Apis 
+# Platoblockchain News Api
+News Apis 
 
 # news api
 
