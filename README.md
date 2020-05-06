@@ -13,7 +13,8 @@ News Data Apis
          "status" : "ok",
          "articles" : [] <-- array of items
        }
-
+     Query parameter i.e q should be a string e.g. blockchain, bitcoin.
+     
 ## 2. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi?q=latest
     - @params
      - q      (string) e.g. q=latest 
@@ -24,5 +25,5 @@ News Data Apis
          "status" : "ok",
          "articles" : [] <-- array of items
        }
-       
+      Query parameter i.e q should be 'latest'
        
