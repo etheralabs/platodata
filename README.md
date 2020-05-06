@@ -3,9 +3,11 @@ News Apis
 
 # news api
 
-## 1. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi?q=blockchain 
+## 1. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi 
     - @params
-     - q      (string)    e.g. q=latest 
+    - Query parameters 
+    - GET Method
+     - q      (string)    e.g. q=blockchain 
      - limit  (integer)   limit=10
      - offset (integer)   offset=0
      - @response
@@ -15,8 +17,10 @@ News Apis
        }
      Query parameter i.e q should be a string e.g. blockchain, bitcoin.
      
-## 2. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi?q=latest
+## 2. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi
     - @params
+    - GET Method
+    - Query parameters 
      - q      (string) e.g. q=latest 
      - limit  (integer)   limit=10
      - offset (integer)   offset=0
