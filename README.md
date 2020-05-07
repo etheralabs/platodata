@@ -1,8 +1,6 @@
 # Platoblockchain News Api
 News Apis 
 
-# news api
-
 ## 1. https://us-central1-plato-blockchain.cloudfunctions.net/newsApi 
     - @params
     - Query parameters 
@@ -38,6 +36,8 @@ News Apis
     - Query parameters NA
      - @response
        {
-         "status" : "ok",
-         "articles" : [] <-- array of items
+        "stats": {
+        "hourNodes": 115,
+        "todayNodes": 265
+        }
        }
