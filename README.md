@@ -30,4 +30,14 @@ News Apis
          "articles" : [] <-- array of items
        }
       Query parameter i.e q should be 'latest'
-       
+      
+   
+## 3. https://us-central1-plato-blockchain.cloudfunctions.net/statsOfNews
+    - @params
+    - GET Method
+    - Query parameters NA
+     - @response
+       {
+         "status" : "ok",
+         "articles" : [] <-- array of items
+       }
